@@ -1,15 +1,15 @@
-import os
+Commitimport os
 import subprocess
 import schedule
 import time
 from datetime import datetime
 
 # Set up your GitHub repository path and commit message
-REPO_PATH = '/home/rohtanza/Desktop/commits/'
-SCRIPT_PATH = '/home/rohtanza/Desktop/commits/main.py'  # Path to this script
-COMMIT_MESSAGE = 'Someone Who pretty has forced me to do this on gunpoint, although she doesn’t possess a gun.'
+REPO_PATH = '/home/Zainab/Desktop/commits/'
+SCRIPT_PATH = '/home/Zainab/Desktop/commits/main.py'  # Path to this script
+COMMIT_MESSAGE = 'Fake Commits '
 BRANCH_NAME = 'main'  # or 'main' based on your branch name
-LOG_FILE = '/home/rohtanza/auto_commit.log'  # Log file path
+LOG_FILE = '/home/Zainab/auto_commit.log'  # Log file path
 
 
 def add_comment_to_script():
